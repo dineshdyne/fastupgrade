@@ -21,13 +21,6 @@ def func(p,q,m):
     return t
 
 
-# k=300
-
-# a=[(3000,100),(6000,300),(15000,700)]
-
-# b=list(map(dict,permutations(a)))
-
-# print(b,list(map(lambda x:func(start,rate,x),b)))
 
 col_a,col_b=st.columns(2)
 col_a=st.number_input(" Input Current value" ,value=0)
